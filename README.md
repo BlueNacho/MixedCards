@@ -3,7 +3,7 @@ Aplicación web de juegos de naipes
 
 - MixedCards es una aplicación web en la cual se pueden jugar juegos de cartas, mas especificamente BlackJack y Truco Uruguayo.
 
-- A su vez, el sitio permite registro, logueo y modificación de usuarios, y la posibilidad de que los mismos, al jugar, apueste fichas por medio de microtransacciones, y que 
+- A su vez, el sitio permite registro, logueo y modificación de usuarios, y la posibilidad de que los mismos, al jugar, apuesten fichas por medio de microtransacciones, y que 
 también, puedan generar estadísticas.
 
 - La aplicación en cuestión cuenta con un apartado de administradores el cual se accede mediante una autenticación por separado ("admin/login.php"). Los administradores
