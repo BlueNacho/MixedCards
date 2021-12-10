@@ -1,0 +1,123 @@
+/* Body */
+body,
+html {
+    height: 100%;
+    background-color: #3f6d63;
+    padding: 0px !important;
+}
+
+input:disabled {
+    background-color: transparent !important;
+}
+
+.bg-page-green {
+    backdrop-filter: blur(20px);
+    background: #3f6d638c;
+}
+
+/* Mobile responsive media rules */
+@media only screen and (max-width: 600px) {
+    .parallax {
+        min-height: 450px !important;
+    }
+
+    .navbar {
+        position: relative !important;
+        background: rgba(255, 255, 255, 0.137)!important;
+    }
+
+    .jumbotron-1 {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+    
+}
+
+/* Fuente personalizada */
+@font-face {
+    font-family: MixedFont;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+/* Efecto scroll imagen */
+.parallax {
+    /* The image used */
+    background-image: url('../img/banner.jpg');
+
+    /* Full height */
+    min-height: 750px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Clase background blur */
+.blur-bg-white {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+/* Sidebar */
+#sidebar-items .nav-link.active {
+    background-color: #3f6d63de;
+}
+
+/* Navbar */
+.navbar {
+    font-family: MixedFont;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3533788515406162) 0%, rgba(0, 0, 0, 0.16290266106442575) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* Form */
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.form-control:visited {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+span {
+    background-color: transparent !important;
+}
+
+/*Form: transparent autofill*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: white !important;
+}
+
+/* White calendar icon */
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+/* Remove input numer arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Clase background transparente */
+.bg-transparent {
+    background-color: none !important;
+}
+
+/* Dropdown */
+.dropdown-item.active {
+    background-color: #3f6d63 !important;
+}
+
+.dropdown-item:focus{
+    background-color: #3f6d6388 !important;
+}

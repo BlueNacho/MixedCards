@@ -1,0 +1,170 @@
+img {
+  height: 100%;
+  margin-left: 0.13%;
+  margin-right: 0.13%;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p {
+  font-weight: 900px;
+}
+
+body {
+  background-color: #386158;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .letras {
+    font-size: 15px !important;
+  }
+  .point {
+    font-size: 20px !important;
+  }
+}
+
+.espacioGameplay {
+  position: relative;
+  background-color: #3f6d63;
+  width: 60%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.678);
+  margin: auto;
+  padding: 2%;
+  min-width: 763.636px;
+  border-radius: 10px;
+}
+
+.cartas {
+  border-width: medium;
+  border-color: #ffffff;
+  position: relative;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  height: 18%;
+  background: rgba(137, 43, 226, 0);
+}
+
+.espacioValor {
+  height: 15%;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.puntos {
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 12%;
+  height: 47%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.521);
+  border-radius: 10px;
+}
+
+.point {
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+
+.letras {
+  font-size: 20px;
+  margin-bottom: -3%;
+}
+.monto {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.modal {
+  display: none; /*Por defecto oculto*/
+  position: absolute;
+  z-index: 1; /*Para quedar por encima de otros elementos*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal2 {
+  display: none; /*Por defecto oculto*/
+  position: fixed;
+  z-index: 30; /*Para quedar por encima de otros elementos*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #3f6d63;
+}
+.modal-contenido {
+  background-color: #335850;
+  color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-radius: 5px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  width: auto;
+  height: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.modal-contenido2 {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 40%;
+  height: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.form-control:visited {
+  background-color: transparent;
+  color: white;
+  box-shadow: none;
+}
+
+.blur-bg-white {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+/* Remove input numer arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

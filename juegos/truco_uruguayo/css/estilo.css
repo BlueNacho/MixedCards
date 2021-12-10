@@ -1,0 +1,182 @@
+img {
+  height: 100%;
+  margin-left: 0.13%;
+  margin-right: 0.13%;
+}
+
+p {
+  font-weight: 900px;
+}
+
+body {
+  background-color: #386158;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.espacioGameplay {
+    position: relative;
+    background-color: #3f6d63;
+    width: 60%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.678);
+    margin: auto;
+    padding: 2%;
+    min-width: 763.636px;
+    border-radius: 10px;
+}
+.cartas {
+  border-width: medium;
+  border-color: #ffffff;
+  position: relative;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+  height: 20%;
+  background: rgba(137, 43, 226, 0);
+}
+
+.jugada {
+  position: relative;
+  height: 322px;
+  background: chocolate;
+}
+
+.muestra {
+  top: 0%;
+}
+
+.espacioPuntos {
+  z-index: 10;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 12%;
+  background: rgba(128, 255, 0, 0);
+}
+
+.puntos {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 47%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.521);
+  border-radius: 10px;
+}
+
+
+.point {
+  font-size: 280%;
+  padding-bottom: 100px;
+}
+
+.letras {
+  font-size: 140%;
+  margin-bottom: -3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .letras {
+    font-size:  20px !important;
+  }
+  .point {
+    font-size:  30px !important;
+  }
+}
+
+.espacioJugadas {
+  z-index: 10;
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 25%;
+  border-radius: 6px;
+  display:block;
+}
+
+.monto {
+  font-weight:400;
+  font-size: 17px;
+}
+
+.modal {
+  display: none; /*Por defecto oculto*/
+  position: absolute;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.226);
+}
+
+.modal2 {
+  display: block; /*Por defecto oculto*/
+  position: fixed;
+  z-index: 30; /*Para quedar por encima de otros elementos*/
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #3f6d63;
+}
+
+.modal-contenido {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 40%;
+  height: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.modal-contenido3 {
+  background-color: #335850;
+  color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-radius: 5px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  width: auto;
+  height: auto;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.form-control:visited {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+.blur-bg-white {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+/* Remove input numer arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
