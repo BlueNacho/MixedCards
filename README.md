@@ -12,4 +12,4 @@ pueden gestionar aspectos como:
   - ABM (Alta, baja y modificación) de Usuarios del sitio.
   - ABM de los juegos del sitio.
   
-Actualmente el proyecto se encuentra en una versión beta, por lo cual, alguna de las funcionalidades pueden aparecer deshabilitadas debido a que se encuentran en desarrollo.
+Actualmente el proyecto se encuentra en una fase beta, por lo cual, alguna de las funcionalidades pueden aparecer deshabilitadas.
